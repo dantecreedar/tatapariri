@@ -1,0 +1,15 @@
+.dolar-box-container {
+    display: flex !important;
+    overflow: hidden !important;
+    justify-content: space-evenly;
+    flex-wrap: wrap !important;
+    margin-top: auto;
+    cursor: pointer;
+}
+
+.banner {
+    display: flex;
+    animation: moveBanner 0s linear infinite;
+    animation-duration: 40s;
+    border-radius: 10px;
+}

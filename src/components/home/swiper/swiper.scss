@@ -1,0 +1,13 @@
+.swiper-container {
+    max-height: 100px !important;
+    width: 100% !important;
+}
+
+.swiper-slide {
+    text-align: center;
+    margin: auto !important;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-size: large;
+}

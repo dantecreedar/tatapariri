@@ -1,0 +1,26 @@
+    body {
+        margin: 0;
+    }
+    
+    main {
+        animation: mymove 60s infinite;
+        animation-delay: 6s;
+        animation-timing-function: ease-in-out;
+        -webkit-animation-timing-function: ease-in-out;
+        background-image: url('./../src/assets/wallpaper1.jpg');
+    }
+    
+    @keyframes mymove {
+        0% {
+            background-image: url('./../src/assets/wallpaper1.jpg');
+        }
+        50% {
+            background-image: url('./../src/assets/wallpaper2.jpg');
+        }
+        51% {
+            background-image: url('./../src/assets/wallpaper3.jpg');
+        }
+        100% {
+            background-image: url('./../src/assets/wallpaper4.jpg');
+        }
+    }

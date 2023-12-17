@@ -1,0 +1,24 @@
+.dolar-item {
+    color: whitesmoke !important;
+    font-size: 12px;
+    box-sizing: border-box;
+    font-weight: bolder;
+    text-align: center;
+    flex: 0 0 6%;
+    margin: 1px;
+}
+
+.dolar-name {
+    color: whitesmoke !important;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+@keyframes moveBanner {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}

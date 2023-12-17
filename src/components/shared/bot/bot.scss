@@ -1,0 +1,106 @@
+.chatbot-toggler {
+    position: fixed;
+    bottom: 25px;
+    right: 35px;
+    outline: none;
+    border: none;
+    height: 64px;
+    width: 64px;
+    display: flex;
+    z-index: 9999;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: whitesmoke;
+    background: black;
+    transition: all 0.2s ease;
+}
+
+.chat-container {
+    position: fixed !important;
+    right: 35px !important;
+    bottom: 110px !important;
+    width: 420px !important;
+    background: #fff;
+    overflow: hidden;
+    display: none;
+    border-radius: 15px;
+    box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1), 0 32px 64px -48px rgba(0, 0, 0, 0.5);
+    transition: all 0.1s ease;
+    transform-origin: bottom right;
+    z-index: 9999;
+}
+
+.chat-header {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.chat-log {
+    padding: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.chat-message {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    max-width: 80%;
+}
+
+.bot {
+    background-color: #eee;
+}
+
+.user {
+    background-color: black;
+    color: #fff;
+    float: right;
+}
+
+.chat-input {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 5px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px Solid black;
+}
+
+.chat-input input {
+    flex: 1;
+    border: none;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.chat-input button {
+    border: none;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+}
+
+.chat-input button:hover {
+    color: gainsboro;
+}
+
+.btn-close {
+    color: green;
+    border-radius: 100%;
+    height: 20px;
+}
+
+.btn-close:hover {
+    color: red;
+    border-radius: 50%;
+}

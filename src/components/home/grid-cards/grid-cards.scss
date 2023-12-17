@@ -1,0 +1,11 @@
+.site-shopping-info .info-slide {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 35px 45px 20px;
+    position: relative;
+    text-align: center;
+}
+
+.scroll {
+    scroll-snap-type: x mandatory;
+}
